@@ -1,0 +1,1040 @@
+.widget-proc{
+  background-image: none;
+  background-color: #fcfcfc;
+  border-bottom-color: #d9d9d9;
+  padding: 10px;
+  height: auto;
+  overflow: hidden;
+  margin-top: 10px; 
+  margin-bottom: 5px;
+}
+.widget-proc_fixo{
+  min-height: 431px; 
+}
+
+.widget-proc{
+  border: 1px solid #CDCDCD;
+  height: auto;
+  -webkit-box-shadow: 0 1px 0 #ffffff inset;
+  box-shadow: 0 1px 0 #ffffff inset;
+  border-radius: 0;
+}
+.widget-receit{
+  margin-bottom: 10px;
+  border-right: 1px solid #CDCDCD;
+  border-left: 1px solid #CDCDCD;
+  border-bottom: 1px solid #CDCDCD;
+  height: auto;
+  -webkit-box-shadow: 0 1px 0 #ffffff inset;
+  box-shadow: 0 1px 0 #ffffff inset;
+  border-radius: 0;
+}
+
+
+/* -------- Tabs ----------*/
+
+#tabs, #tabes{
+	font-size: 13px;
+	font-family: Arial;
+	border-radius: 0;
+	padding: 8px 10px;
+	border: solid 1px #CDCDCD;
+	margin-bottom: 6px;
+	margin-top: 8px;
+	height: auto;
+}
+
+#tabs .ui-widget-content,
+#tabes .ui-widget-content {
+	padding: 10px 0;
+}
+
+#tabs a:active, a:focus, a:hover, a:link, a:visited,
+#tabes a:active, a:focus, a:hover, a:link, a:visited{
+	outline: none;
+}
+#tabs .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited,
+#tabes .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	color: #fff;
+	text-decoration: none;	
+}
+#tabs .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited,
+#tabes .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited  {
+	color: #fff; 
+	text-decoration: none;	
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: 0 .15em .15em!important;
+}
+#tabs .ui-widget-header,
+#tabes .ui-widget-header {
+    border: 1px solid #0A4A67;
+    background: #0A4A67;
+    color: #222222;
+    font-weight: normal;
+    border-radius: 3px;
+}
+#tabs .ui-widget-header a,
+#tabes .ui-widget-header a{
+	color: #fff;
+	font-size: 13px;
+}
+#tabs .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+#tabes .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 0 !important;
+	background: #126F9A;
+	font-weight: normal;
+	color: #fff;
+	opacity: 1;
+	border-radius: 3px;
+}
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 0;
+    border-right: solid 0px #fff;
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 0;
+    padding: 0;
+    border-radius: 0;
+    background: #0A4A67;
+}
+
+
+/*#################*/
+
+.receituario-border {
+	border: solid 1px #dcdcdc;
+}
+input.input-medicar{
+	padding: 3px;
+	max-width: 40px;
+	border-radius: 3px;
+	border: solid 1px #bbb;
+	text-align: center;
+}
+ 
+input.input-qtd{
+	padding: 3px;
+	max-width: 40px;
+	border-radius: 3px;
+	border: solid 1px #bbb;
+	text-align: center;
+}
+input.input-subtotal{
+	padding: 3px;
+	max-width: 80px;
+	border-radius: 3px;
+	border: solid 0 #bbb;
+	text-align: center;
+}
+.btn-medicar{
+	font-size: 12px;
+	padding: 2px 15px;
+	max-width: 40px;
+	margin-top: 4px;
+}
+/*##########*/
+.intern {
+	display: block;
+	padding: 0 0 12px;
+	font-size: 12px;
+}
+.intern input[type=radio]{
+	vertical-align: middle;
+	margin: 0 4px;
+	padding: 0;
+}
+.intern label{
+	vertical-align: middle;
+	margin-bottom: 0;
+	
+}
+table.dignostico{
+	width: 100%;
+	min-height: 80px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 8px 6px 12px;
+	display: block;
+	border: solid 1px #ccc;
+	margin-bottom: 0;
+}
+table.dignostico tr td{
+	text-align: left;
+	font-size: 13px;
+}
+.widget-btn{
+	padding: 10px;
+}
+.pull{float: right; position: absolute;}
+.select-pacients{
+	width: 100%;
+	height: 90px;
+	padding: 0 2.5em;
+	overflow-y: scroll;
+    overflow-x: hidden;
+	display: block;
+	margin: 10px 0;
+	border: solid 1px #ccc;
+	border-radius: 4px;
+	text-transform: uppercase;
+	word-spacing: 0.1px;
+}
+.select-pacients span{
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+.pacient-selecionado {
+	padding: 6px 0;
+	margin-bottom: 6px;
+}
+.pacient-selecionado input{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ba122b;
+	width: 100%;
+	background: #fcfcfc;
+	border: none;
+	text-align: center;
+	padding: 5px 0 7px;
+	text-transform: uppercase;
+}
+.btn-active-proc{
+	background-color: #34495e;
+}
+
+#fromReceituarios .input-group .form-control {
+  z-index: 0;
+}
+#z-index-zero .input-group .form-control {
+  z-index: 0;
+}
+ul.ui-autocomplete{
+	background: #34495e;
+	padding: 6px 10px;
+	max-width: 400px;
+	max-height: 230px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 999;
+}
+ul.ui-autocomplete li a{
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+/* table nova triagem*/
+
+.bg-td{
+	background-color: #f4f4f4;
+}
+#table-style span {
+	font-weight: bold;
+}
+#table-style {
+	width: 100%;
+	margin-bottom: 15px;
+}
+#table-style td {
+	text-align: left;
+	padding: 6px;	
+}
+#table-style tr {	
+	border: solid 1px #eee;
+}
+
+/* Sinais de dados*/
+
+.btn-sinais-dados {
+	margin-top: 6px;	
+}
+.btn-sinais-dados button{
+	padding: 5px 2.65em;	
+	margin: auto;
+}
+.dados-triagem-alinhar{
+	padding-bottom: 12px;
+}
+/* Queixas*/
+
+.queixas textarea {
+	height: 150px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.queixasNovas textarea {
+	height: 115px;
+	padding: 10px;
+	margin-bottom: 2em;
+	resize: none;
+}
+.queixasHist{
+	margin-top: 3.4em;
+}
+.datasx, .data_at, .data_qh, .data_ef, .data_ecxx, .data_h, .data_rc, .data_trc, .sinaisURG, .sinaisUE, .data_diag{
+ cursor: pointer;
+}
+
+/* Antecedentes*/
+#anteced-name-span span{
+	font-weight: bold;
+	margin-bottom: 2px;
+	padding-bottom: 1px;
+}
+#anteced-name-span .control-label{
+	margin-left: 10px;
+	padding: 0 10px;
+}
+#anteced-name-span .anteced-radios{
+	margin-left: 5px;
+}
+#anteced-name-span i{
+	margin-left: 25px;
+	font-style: normal;
+}
+textarea.anteceent-area{
+	height: 88px;
+	resize: none;
+	text-align: left;
+}
+.antecedent-area textarea {
+	height: 58px;
+	width: 100%;
+	resize: none;
+	text-align: left;
+}
+.antecedent-area2 {
+	margin-top: 8px;
+}
+.antecedent-area2 textarea {
+	height: 200px;
+	width: 100%;
+	resize: none;
+}
+.btn-alter-position{
+	position: relative;
+	right: 15px;
+}
+
+/* Antecedentes*/
+#fromAntecedentesFamiliar table tr td{
+	text-align: right;
+}
+#fromAntecedentesFamiliar table span{
+	position: relative;
+	text-align: right;
+}
+.exa-fisico-area textarea{
+	height: 66px;
+	margin-bottom: 10px;
+}
+
+.exa-fisico-area2 textarea{
+	height: 66px;
+	margin-bottom: 10px;
+}
+.exa-fisico-area span{
+	float: left;
+}
+.exa-fisico-area_trt textarea{
+	height: 130px;
+	margin-bottom: 10px;
+}
+/* Hipoteses*/
+
+input.bt-sel{
+ 	margin-top: 10px;
+ 	padding: 5px 5px;
+	width: 18px;
+	height: 18px;
+	color: #222;
+	font-size: 12px;
+	font-weight: normal;
+	text-indent: 18px;
+	border: #808080 1px Solid;
+ 	background: url('../img/select.png')  ; 
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	background-position: 2px 2px;
+}
+
+/* Historico e Justificativo*/
+
+.calendar-consult{
+	padding: 14px 20px;
+}
+.calendar-consult label{
+	font-size: 26px;
+	vertical-align: middle;
+}
+.calendar-consult i{
+	font-size: 22px;
+	margin: -7px 10px 0;
+	vertical-align: middle;
+}
+.calendar-consult input{
+	max-width: 210px;
+	padding: 5px 10px 6px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ff0000;
+	border: solid 1px #ccc;
+}
+.espaco-right{
+	padding-right: 15px;
+}
+
+/* Tratamentos*/
+.textarea-ajust textarea{
+	height: 380px;
+	width: 100%;
+}
+.tratamento-recom textarea {
+	height: 125px;
+	width: 100%;
+	padding: 0 6px;
+}
+.hipotese-obs{
+  background-image: none;
+  background-color: #fcfcfc;
+  border-bottom-color: #d9d9d9;
+  padding: 0;
+  height: auto;
+  overflow: hidden;
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+.hipotese-obs h5{
+  position: absolute;
+  margin: 12px 0 0 10px;
+  font-size: 15px;
+}
+
+.hipotese-obs textarea {
+	height: 90px;
+	width: 100%;
+	padding: 6px 10px;
+	resize: none;
+	font-size: 13px;
+	border: 1px solid #ddd;
+}
+.linedwrap {
+	border: 1px solid #c0c0c0;
+	padding: 0 0 2px 0;
+	margin-bottom: 10px;	
+}
+.linedtextarea {
+	padding: 0px;
+	margin: 0px;
+}
+.linedtextarea textarea, .linedwrap .codelines .lineno {
+	font-size: 10pt;
+	font-family: monospace;
+	line-height: normal !important;
+}
+.linedtextarea textarea {
+	padding-right: 0.3em;
+	padding-top: 0.3em;
+	outline: none;
+	border: 0;
+}
+.linedwrap .lines {
+	margin-top: 0px;
+	max-width: 30px;
+	min-height: 128px;
+	float: left;
+	overflow: hidden;
+	border-right: 1px solid #c0c0c0;
+	margin-right: 1px;
+}
+.linedwrap .codelines {
+	padding-top: 5px;
+}
+.linedwrap .codelines .lineno {
+	color:#AAAAAA;
+	padding-left: 0.8em;
+	padding-top: 0.0em;
+	text-align: left;
+	white-space: nowrap;
+}
+
+/* Internamento*/
+.modo-inter span{
+	font-weight: bold;
+}
+.modo-inter {
+	display: block;
+	padding: 0 0 12px;
+	text-align: left;
+}
+.modo-inter input[type=radio]{
+	vertical-align: middle;
+	margin: 0 4px;
+	padding: 0;
+}
+.modo-inter label{
+	vertical-align: middle;
+	margin-bottom: 0;
+}
+table.table-inter{
+	width: 100%;
+	min-height: 60px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 8px 6px 12px;
+	display: block;
+	border: solid 1px #ccc;
+	margin-bottom: 0;
+}
+table.table-inter tr td{
+	text-align: left;
+	font-size: 13px;
+}
+/* Diaginostico */
+#diagn_obs{
+	margin: 9px;
+}
+/* Exames fisicos*/
+.resize textarea{
+resize: none;
+}
+/* Exames fisicos*/
+/* Banco de Urgencia */
+.filstriag fieldset{
+	border: solid 1px #ccc;
+	padding:  10px;
+	margin: 11px;
+	min-height: 168px;
+}
+.filstriag legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom:0;
+    padding-left:7px;
+    
+}
+.filsUrg fieldset{
+	border: solid 1px #ccc; 
+	padding:  10px;
+	margin: 0;
+	height: 240px;
+}
+.filsUrg legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.btn_top_urgen{
+	margin-top:7px;
+}
+.filsEmerg fieldset{
+	border: solid 1px #ccc;
+	padding:  10px 120px 10px 10px;
+	margin: 0;
+	height: 165px;
+}
+.filsEmerg legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.filsEmerg ul li{
+	padding: 4px 0;
+}
+.filsUrgQueixas fieldset{
+	border: solid 1px #ccc;
+	padding:  10px 120px 10px 10px;
+	margin: 0;
+	height: 212px;
+}
+.filsUrgQueixas legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.filsUrgQueixas ul li{
+	padding: 4px 0;
+}
+.filsUrg fieldset{
+	border: solid 1px #ccc;
+	padding:  10px 450px 10px 10px;
+	margin: 0;
+	height: 245px;
+}
+.filsUrg legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.filsUrg ul li{
+	padding: 4px 0;
+}
+.filsEmergfixo fieldset{
+	border: solid 1px #ccc;
+	padding:  10px 36em 10px 10px;
+	height: 165px;
+}
+.filsEmergfixo legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.queixa_geral_emerg_fixo{
+	margin-right:-36em !important;
+	
+}
+.filsQueixasUrg fieldset{
+	border: solid 1px #ccc;
+	padding:  10px;
+	margin: 0;
+	height: 188px;
+}
+.filsQueixasUrg legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.filsQueixasUrg li{
+	margin: 10px 0;
+}
+.filsQueixas fieldset{
+	border: solid 1px #ccc;
+	padding:  10px 120px 10px 10px;
+	margin: 0;
+	height: 265px;
+}
+.queixa_geral_urgen{
+	margin-right:-115px !important;
+}
+.filsQueixas legend,
+.filsJust legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.filsQueixas li{
+	margin: 10px 0;
+}
+.filsJust fieldset{
+	border: solid 1px #ccc;
+	padding:  10px;
+	margin: 0;
+	height: 269px;
+}
+.filsJustPacHojUrg fieldset{
+	height: 294px;
+}
+/* Emergencia Paciente Urgencia */
+.filsEmerg_urgenc fieldset{
+	border: solid 1px #ccc;
+	padding:  10px 120px 10px 10px;
+	margin: 0;
+	height: 273px;
+}
+.filsEmerg_urgenc legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0;
+    padding-left:7px;
+}
+.filsEmerg_urge_Fixo{
+	margin-right: -120px;
+}
+.filsEmerg_urgenc li{
+	margin: 12px  0;
+}
+/* Emergencia Paciente Urgencia */
+.fil_PacientEmerg_botto{
+	margin-bottom: 15px;
+}
+
+.textareaEmerg{
+	padding: 10px;
+	height: 50px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+.textareaPacHojUrg{
+	padding: 10px;
+	height: 81px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+.textareaPacUrg{
+	padding: 10px;
+	height: 98px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+.textareaUrg{
+	padding: 10px;
+	height: 76px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+.textareaQueixasUrg{
+	padding: 10px;
+	height: 62px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+.textareaQueixas{
+	padding: 10px;
+	height: 101px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+.textareaEmergFixo{
+	padding: 10px;
+	height: 106px;
+	width: 100%;
+	border: solid 1px #ccc;
+	resize: none;
+}
+
+.farm_triag{
+	min-width: 120px;
+}
+textarea.farm_triag_area{
+	min-width: 398px;
+	height: 60px;
+	resize: none;
+}
+.triaImg td{
+	 height: 175px; 
+	 width: 160px;
+	
+}
+.triaImg img{
+	 height: 165px; 
+	 width: 160px;
+	 border: solid 1px #eee;
+}
+
+.perfi_triag{
+	background-color:#f4f4f4;
+	text-align:left;
+	font-weight: bold;
+	font-size: 13px;
+	border: solid 1px #fff;
+}
+
+.perfleft{
+	text-align: left;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.widget-emerge{
+  margin-bottom: 25px;
+  border-left: 1px solid #CDCDCD;
+  border-right: 1px solid #CDCDCD;
+  height: auto;
+}
+.widget-urg{
+  border-left: 1px solid #CDCDCD;
+  border-right: 1px solid #CDCDCD;
+  height: auto;
+}
+.atenTable{
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.atenTable span{
+	font-weight: normal;
+}
+.perfi_aten td{
+	background-color:#f4f4f4;
+	text-align:left;
+	font-weight: bold;
+	font-size: 13px;
+}
+.perfi_atenLeft td{
+	text-align: left;
+	font-size: 13px;
+}
+.pacinAtend-span{
+	margin-top: 10px;
+	max-height: 60px;
+	text-align: left;
+}
+.recTextareaUrg textarea{
+	min-width: 510px;
+	height: 229px;
+	resize: none;
+}
+.recTextareaPacHojUrg textarea{
+	min-width: 510px;
+	height: 279px;
+	resize: none;
+}
+.recTextareaEmerg textarea{
+	min-width: 510px;
+	height: 290px;
+	resize: none;
+}
+.btn_bottom{
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.atived{
+		color: #286090; 
+		font-weight: bold;
+	}
+.sinaisVitais{
+	border: solid 1px #ddd;
+	float: left;
+	max-height: 318px;
+	min-height: 318px;
+	padding-bottom: 20px;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+}
+.sinaisVitais .title{
+	padding: 4px 30px 4px 12px;
+	float: left;
+	width: 270px;
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 5px;
+	background-color: #f4f4f4;
+	font-weight: bold;
+	color: #222;
+}
+.sinaisVitais span{
+	margin: 5px 0;
+	padding: 0 10px;
+	border-bottom: solid 0px red
+}
+
+.sinaisVitais .esq{
+	float: left;
+	border-right: solid 1px #ddd;
+	padding-right: 30px;
+}
+.sinaisVitais .direit{
+	float: right;
+	text-align: left;
+}
+sinais_vitais_input{
+	width: 55x;
+}
+.desconhecido textarea {
+	width: 610px;
+	height: 40px;
+	padding: 10px;
+	border: solid 1px #ddd;
+	margin: 0 15px 10px;
+}
+#pacienteEmergente select,
+#pacienteEmergente input{
+	width: 100%;
+	margin-bottom: 12px;
+}
+/* Fim Banco de Urgencia */
+/* Consulta Justificativo M�dico< */
+.widget-title-justifi-medic{
+  background-image: none;
+  background-color: #fcfcfc;
+  border-bottom-color: #d9d9d9;
+  padding: 0;
+  height: auto;
+  overflow: hidden;
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+  min-height: 267px;
+}
+.widget-title-justifi-medic h5{
+  position: absolute;
+  margin: 12px 0 0 10px;
+  font-size: 15px;
+}
+.widget-title-justifi-medic{
+  border: 1px solid #CDCDCD;
+  height: auto;
+  -webkit-box-shadow: 0 1px 0 #ffffff inset;
+  box-shadow: 0 1px 0 #ffffff inset;
+  border-radius: 0;
+}
+.form-control_justifi-medic{
+  width: 100px;
+  height: 30px;
+  padding: 4px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+.justifi-medic-margin-fixo{
+	margin-top: 20px;
+}
+.form-control_justifi-medic_fixo {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 4px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+.justif_medic_consul i{
+	font-size: 22px;
+	margin: -4px 10px 0;
+	vertical-align: middle;
+}
+.justif_medic_consul label{
+	margin-left: 5px;
+}
+/* Estilo dericionado Facturacao Historico de Devolu��es */
+.factura-histor-span{
+	margin-left: 7em;
+}
+.factura-histor h2{
+	border-bottom: solid 1px #ccc;
+	font: 22px "uni_sans_semi_bold", arial, sans-serif;
+ 	color: #000;
+ 	font-weight: normal;
+ 	margin-top: 0;
+ 	padding-bottom: 9px; 
+}
+.border-table-modal{
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	margin-bottom: 7px;
+}
+/* And Estilo dericionado Facturacao Historico de Devolu��es */
+/* Estilo Acordion facturacao */
+#accordion{
+	margin-top: 10px;
+}
+.panel-default>.panel-heading {
+    background-color: #337ab7;
+    border-color: #ddd;
+}
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.panel-title-pq {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+}
+.btn_factura_produtos .btn-primary {
+  color: #ffffff;
+  background-color: #34495e;
+  border-color: #34495e;
+  cursor: default;
+}
+.btn_factura_produtos input[type=text] {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 2px;
+  height: 20px;
+  width: 140px;
+}
+
+.radio_est{
+	margin-top: 5px;
+}
+
+/* And  Estilo Acordion facturacao */

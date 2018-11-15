@@ -1,0 +1,142 @@
+ 
+ 
+/*  Histórico de Consultas Agendadas */
+ 
+.input-top{
+	border-bottom: solid 1px #ddd;
+	padding: 10px 20px 0;
+}
+.spacing input{
+	margin-bottom: 14px;
+}
+.spacing select{
+	margin-bottom: 14px;
+	border-radius: 0;
+}
+.relat_gener{
+	margin-right: 70px;
+}
+.relat_gener_input{
+	margin: 8px;
+}
+.inputs_rem_radius input{
+	border-radius: 0;
+}
+.spacing{
+	padding: 20px 10px;
+}
+.spacing label{
+	margin-top: -4px;
+}
+.space_bottom_hist{
+	margin-top: 5px !important;
+}
+
+.spacing_hist label{
+	margin-top: 0;
+}
+.spacing input[type=radio]{
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+.space_input_hist{
+	min-width: 79px;
+}
+ /* Relatório de Atendimento Médico */
+.opcoes{
+	padding-bottom: 15px;
+ }
+ .cons_dados_geral{
+	width: 100%;
+	max-height: 122px;
+	min-height: 122px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+	background: #fff;		
+}
+.cons_dados_geral p{
+	font-size: 13px;
+	font-weight: normal;
+	color: #444;
+	line-height: 18px;
+	text-align: justify;
+	text-indent: 2em;
+}
+.btn-active-rel{
+	background-color: #34495e;
+}
+
+/* Histórico de Pagamento de Consultas */
+#pagam_consul_left{
+	margin-left:22px;
+}
+
+.width_radio_table input[type=radio]{
+	width: 16px;
+	height: 16px;
+}
+
+.fecho_inputs_top{
+	padding: 7px 20px 7px 10px;
+}
+.fecho_inputs_top_bottm{
+	padding-right:10px;
+}
+.fecho_inputs_top input{
+	border-radius: 0;
+}
+.fecho_inputs_top label{
+	margin-top: 5px;
+}
+.btn_hist_pag_cons .btn-primary {
+  color: #ffffff;
+  background-color: #34495e;
+  border-color: #34495e;
+  cursor: default;
+}
+.btn_hist_pag_cons input[type=text] {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 2px;
+  height: 20px;
+  width: 100px;
+}
+
+.btn_hist_pag_cons2 input[type=text] {
+  background: transparent;
+  border: 0;
+  color: #000000;
+  font-weight: bold;
+  padding: 0 2px;
+  height: 20px;
+  width: 100px;
+  text-align: right;
+}
+
+.fecho_caixa_inputs{
+	padding: 20px 40px 15px;
+}
+.fecho_caixa_inputs input{
+	border-radius: 0;
+	text-align: center;
+}
+
+.emKanzas{
+	min-width: 300px;
+}
+.space_input_pagam{
+	min-width: 128px;
+}
+
+/* Urgencia e Emergencia / Emergencia */
+
+.relat_emerg li{
+	padding-bottom: 7px;
+
+}

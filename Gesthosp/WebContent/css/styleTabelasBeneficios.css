@@ -1,0 +1,197 @@
+#benificiosFormPrd table.cruises { 
+    font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-collapse: collapse; 
+    width: 635px;   
+    }
+#benificiosFormPrd table.cruises tbody { 
+    top: 2.91em;
+    height: 255px; 
+    width: 632px; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    position: absolute;
+}
+#benificiosFormPrd table.cruises tr:first-child td {
+    border-top: none;
+}
+#benificiosFormPrd table.cruises th {     
+	padding: 8px 10px;
+	background-color:#f4f4f4;  
+	color: #222;
+	clear: both;   
+	line-height: 24px;
+    vertical-align: top; 
+    font-variant: none;
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    }
+#benificiosFormPrd table.cruises td { 
+  	background-color: #fcfcfc; 
+  	overflow: hidden; 
+  	padding: 8px 10px;
+  	border: 1px solid #dddddd;
+}
+#benificiosFormPrd table.cruises tr:hover { 
+  	background-color:#f4f4f4; 
+}
+#benificiosFormPrd div.scrolltableContainer { 
+    position: relative; 
+    width: 623px;    
+    background-color: #fcfcfc;
+    border-top: 1px solid #dddddd;
+}
+#benificiosFormPrd div.scrollingarea { 
+    height: 305px; 
+    overflow: auto; 
+}
+#benificiosFormPrd table.scrolltable thead tr {
+    left: 0px; 
+    top: 0;
+    position: absolute;  
+}
+#benificiosFormPrd table.cruises .analise  div { width: 373px; }
+#benificiosFormPrd table.cruises .designacao  	div { width: 260px; text-align:center;}
+#benificiosFormPrd table.cruises .preco    div { width: 105px; text-align:center;}
+#benificiosFormPrd table.cruises .accao    div { width: 70px;  text-align:center; }
+#benificiosFormPrd table.cruises .tipo     	div { width: 100px; text-align:center; }
+#benificiosFormPrd table.cruises .checks    	div { width: 75px;  text-align:center; }
+
+ 
+
+/* <!-- Outra tabela --> */
+#facturasModalForm table.cruises { 
+    font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-collapse: collapse; 
+    width: 735px;   
+    }
+#facturasModalForm table.cruises tbody { 
+    top: 2.91em;
+    height: 255px; 
+    width: 745px; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    position: absolute;
+}
+#facturasModalForm table.cruises tr:first-child td {
+    border-top: none;
+}
+#facturasModalForm table.cruises th {     
+	padding: 8px 10px;
+	background-color:#f4f4f4;  
+	color: #222;
+	clear: both;   
+	line-height: 24px;
+    vertical-align: top; 
+    font-variant: none;
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    }
+#facturasModalForm table.cruises td { 
+  	background-color: #fcfcfc; 
+  	overflow: hidden; 
+  	padding: 8px 10px;
+  	border: 1px solid #dddddd;
+}
+#facturasModalForm table.cruises tr:hover { 
+  	background-color:#f4f4f4; 
+}
+#facturasModalForm div.scrolltableContainer { 
+    position: relative; 
+    width: 723px;    
+    background-color: #fcfcfc;
+    border-top: 1px solid #dddddd;
+}
+#facturasModalForm div.scrollingarea { 
+    height: 305px; 
+    overflow: auto; 
+}
+#facturasModalForm table.scrolltable thead tr {
+    left: 0px; 
+    top: 0;
+    position: absolute;  
+}
+#facturasModalForm table.cruises .analise  		div { width: 175px; }
+#facturasModalForm table.cruises .qtd      		div { width: 50px; text-align:center;}
+#facturasModalForm table.cruises .preco    		div { width: 80px; text-align:center;}
+#facturasModalForm table.cruises .taxa    		div { width: 50px; text-align:center;}
+#facturasModalForm table.cruises .seguradora    div { width: 125px;  text-align:center; }
+
+
+ 
+/*Table Beneficios  css*/
+#agenda-perfil2 {
+    position: relative;
+    margin: 3em 0 0;
+    padding: 0 0 0;
+    border-top: 0 solid #CDCDCD;
+    border-bottom: 0 solid #CDCDCD;
+}
+#benificiosForm table.cruises { 
+    font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-collapse: collapse; 
+    width: 535px;   
+    }
+#benificiosForm table.cruises tbody { 
+    top: 2.91em;
+    height: 255px; 
+    width: 523px; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+    position: absolute;
+}
+#benificiosForm table.cruises tr:first-child td {
+    border-top: none;
+}
+#benificiosForm table.cruises th {     
+	padding: 8px 10px;
+	background-color:#f4f4f4;  
+	color: #222;
+	clear: both;   
+	line-height: 24px;
+    vertical-align: top; 
+    font-variant: none;
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    }
+#benificiosForm table.cruises td { 
+  	background-color: #fcfcfc; 
+  	overflow: hidden; 
+  	padding: 8px 10px;
+  	border: 1px solid #dddddd;
+}
+#benificiosForm table.cruises tr:hover { 
+  	background-color:#f4f4f4; 
+}
+#benificiosForm div.scrolltableContainer { 
+    position: relative; 
+    width: 523px;    
+    background-color: #fcfcfc;
+    border-top: 1px solid #dddddd;
+}
+#benificiosForm div.scrollingarea { 
+    height: 305px; 
+    overflow: auto; 
+}
+#benificiosForm table.scrolltable thead tr {
+    left: 0px; 
+    top: 0;
+    position: absolute;  
+}
+#benificiosForm table.cruises .descricao  	div { width: 270px; }
+#benificiosForm table.cruises .designacao  	div { width: 260px; text-align:center;}
+#benificiosForm table.cruises .preco    	div { width: 100px; text-align:center; }
+/* #benificiosForm table.cruises .valor    	div { width: 100px; text-align:center; } */
+#benificiosForm table.cruises .tipo     	div { width: 100px; text-align:center; }
+#benificiosForm table.cruises .checks    	div { width: 75px;  text-align:center; }
+
+
+ 
